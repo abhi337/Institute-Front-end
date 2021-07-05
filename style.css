@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(castle-336498_1920.jpg);
+    font-family: 'Uchen', serif;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 34px;
+    top: 18px;
+    width: 183px;
+    height: 194px;
+}
+.left img{
+    width: 126px;
+}
+.left div{
+    line-height: 35px;
+    font-size: 39px;
+
+}
+.middle{
+    display: block;
+    margin: 18px auto;
+    width: 461px;
+    height: 49px; 
+    /* border: 2px solid green; */
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    width: 151px;
+    height: 28px;
+}
+
+.navbar{
+   display: inline-block;
+   padding: 4px;
+    
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 3px 3px;
+}
+.navbar li a:hover , .navbar li a.navigation{
+    text-decoration: underline;
+    color: greenyellow;
+}
+.btn{
+    margin: 3px 3px;
+    background-color: #ca596a;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: blue;
+}
+.container{
+    /* border: 2px solid rebeccapurple; */
+    margin: 163px 450px;
+    padding: 20px;
+    width: 536px;
+    border-radius: 33px;
+}
+.container h1{
+    color: #fb0a0a;
+}
+.course{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 183px;
+    height: 255px;
+    bottom: 158px;
+    left: 34px;
+}
+
+.course ul{
+    color: seashell;
+}
+.course ul a{
+    color: black;
+}
